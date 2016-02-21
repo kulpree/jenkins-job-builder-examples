@@ -1,0 +1,8 @@
+---
+
+- project:
+    name: dev
+    group: TEST
+
+    jobs:
+      - dev-jobs

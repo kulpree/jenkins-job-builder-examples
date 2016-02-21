@@ -1,0 +1,17 @@
+- job-template:
+    name: '{name}-job1'
+
+    builders:
+      - test-echo
+
+- job-template:
+    name: '{name}-job2'
+
+    builders:
+      - test-echo
+
+- job-group:
+    name: 'dev-jobs'
+    jobs:
+      - '{name}-job1'
+      - '{name}-job2'

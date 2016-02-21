@@ -1,0 +1,6 @@
+- defaults:
+    name: global
+    description: |
+      This job is managed by jenkins-job-builder and will be overwritten.
+
+    project-type: freestyle

@@ -1,0 +1,8 @@
+---
+
+- builder:
+    name: test-echo
+    builders:
+      - shell: |
+          #!/bin/sh
+          echo "Testing"
